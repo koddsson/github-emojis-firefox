@@ -28,10 +28,6 @@
     margin: 0;
 }
 
-.dropdown-menu a {
-	background: url("chrome://github-emojis/content/kod.png") no-repeat scroll left center transparent;
-}
-
 .dropdown-menu a:hover {
     cursor: pointer;
 }

@@ -31,7 +31,8 @@ self.port.on('data', function(data) {
     match: /(^|\s)\$(\w*)$/,
     replace: function (value) { return '$1:' + value + ':'; },
     template: function (value) {
-      return value;
+      //return value;
+      return '<img src="chrome://github-emojis/content/kod.png" />' + value;
     },
     search: findEmoji,
     maxCount: 5
