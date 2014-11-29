@@ -21,7 +21,7 @@ var findEmoji = function(text, callback) {
     })
     .map(_.first)
     .value();
-  console.log(results);
+  console.error(results);
   callback(results);
 };
     
