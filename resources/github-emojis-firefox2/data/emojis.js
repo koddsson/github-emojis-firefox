@@ -32,7 +32,7 @@ self.port.on('data', function(data) {
     replace: function (value) { return '$1:' + value + ':'; },
     template: function (value) {
       //return value;
-      return '<img src="chrome://github-emojis/content/emoji/' + value + '.png" />' + value;
+      return '<img style="height: 20px; width: 20px;" src="chrome://github-emojis/content/emoji/' + value + '.png" />' + value;
     },
     search: findEmoji,
     maxCount: 5
